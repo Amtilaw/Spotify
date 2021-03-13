@@ -10,13 +10,15 @@ const BoardScreen= (props) => {
       <Text style={styles.title}>Rechercher</Text>
       <Text style={styles.titleh2}>Vos genres préférés</Text>
       <StatusBar style="auto" />
-      <GenreButton type="primary" content="Rap"/>
+      <View style={styles.genreBoard}>
+        <GenreButton type="primary" content="Rap"/>
 
-      <GenreButton type="secondary" content="Pop"/>
+        <GenreButton type="secondary" content="Pop"/>
 
-      <GenreButton type="third" content="Indie"/>
+        <GenreButton type="third" content="Indie"/>
         
-      <GenreButton type="fourth" content="Varitéré française"/>
+        <GenreButton type="fourth" content="Variété française"/>
+      </View>
     </View>
   );
 };

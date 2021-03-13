@@ -21,6 +21,11 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#FFFFFF'
   },
+  genreBoard: {
+    width: '90%',
+    marginLeft: '5%',
+    height: '40%',
+  }
 });
 
 export default styles;
