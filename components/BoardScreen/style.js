@@ -13,6 +13,14 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#FFFFFF'
   },
+  titleh2: {
+    marginTop: '30%',
+    width: '100%',
+    marginLeft: '5%',
+    fontSize: 25,
+    fontWeight: 'bold',
+    color: '#FFFFFF'
+  },
 });
 
 export default styles;
