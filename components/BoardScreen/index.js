@@ -3,6 +3,7 @@ import {View, Text} from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import styles from './style';
 import GenreButton from "../GenresButton";
+import Menue from "../Menue";
 
 const BoardScreen= (props) => {
   return (
@@ -19,6 +20,7 @@ const BoardScreen= (props) => {
         
         <GenreButton type="fourth" content="Variété française"/>
       </View>
+      <Menue />
     </View>
   );
 };
